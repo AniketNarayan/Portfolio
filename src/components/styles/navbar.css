@@ -1,0 +1,112 @@
+.container {
+  max-width: 1800px;
+  padding: 0 2rem;
+  margin: 0 auto;
+  width: 96%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 9.6rem;
+  z-index: 1000;
+  background-color: var(--bg-secondary);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.main-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+  .nav-link {
+    position: relative;
+    padding: 1rem 1rem;
+    /* color: hsl(var(--muted-foreground)); */
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .2s;
+    animation-duration: .2s;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  .theme-toggle {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #555;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #00aaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+
+  .nav-link {
+    position: relative;
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    color: var(--text-primary);
+  }
+  
+  .nav-link:hover {
+    color: var(--accent-color);
+  }
+  
+  .active-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 100%;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .theme-toggle {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid var(--border-color);
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .theme-toggle:hover {
+    border-color: var(--accent-color);
+    background-color: var(--bg-card);
+    color: var(--accent-color);
+  }
+
+  /* .name-color {
+    color: #00ccff;
+    font-weight: 700;
+  }
+  
+  .secondary-color {
+    color: #fff;
+    font-size: 2.4rem;
+  } */
+  
