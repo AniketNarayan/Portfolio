@@ -168,10 +168,30 @@ git push
 
 ## 📝 Next Steps After Deployment
 
-1. **Update your resume** with the live URL
-2. **Share on LinkedIn** 🚀
-3. **Add to your email signature**
-4. **Keep it updated** with new projects!
+1. **Get your live URL**:
+   - Go to Vercel Dashboard → Your Project
+   - Copy the URL (e.g., `https://portfolio-silk-gamma-21.vercel.app`)
+
+2. **Add to LinkedIn** 🚀:
+   - **Option A - Featured Section** (Recommended):
+     - Go to your LinkedIn profile → "Add profile section" → "Featured"
+     - Click "+" → "Link" → Paste your portfolio URL
+     - Add title: "My Portfolio" or "Personal Website"
+   - **Option B - Contact Info**:
+     - Edit your profile → "Contact info" → "Add website"
+     - Select "Personal website" → Paste URL
+   - **Option C - About Section**:
+     - Edit "About" section → Add: "Check out my portfolio: [your-url]"
+
+3. **Update your resume** with the live URL
+
+4. **Add to your email signature**:
+   - Include: "View my portfolio: [your-url]"
+
+5. **Share on social media** 🎉:
+   - Post about your new portfolio on LinkedIn, Twitter, etc.
+
+6. **Keep it updated** with new projects!
 
 Good luck! 🎉
 
