@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import HeroSection from "./components/HeroSection";
@@ -6,7 +6,7 @@ import AboutMe from "./components/Aboutme";
 import ProjectsSections from "./components/projects/ProjectSection";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Timeline from "./components/timeline/Timeline"
+import Timeline from "./components/timeline/Timeline";
 
 
 function SectionWrapper({ children, customStyle = {} }) {

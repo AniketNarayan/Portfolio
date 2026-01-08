@@ -1,7 +1,7 @@
 // Navbar.jsx
 import React from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
-import "../components/styles/navbar.css"
+import "./styles/navbar.css"
 import { NavLink } from 'react-router-dom';
 import { useNavigate, useLocation } from "react-router-dom";
 import { useTheme } from "../context/themeContext";

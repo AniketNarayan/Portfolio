@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 import "../styles/timeline.css"
 import WorkExperience from "./Workexperience";
 import Education from "./Education";
