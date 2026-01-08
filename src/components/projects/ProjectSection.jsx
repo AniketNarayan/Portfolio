@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import "../styles/project.css"
 import Projects from "./Projects";
-import Blogs from "./blogs";
+import Blogs from "./Blogs";
 
 // const projects = [];
 const mediumBlogs = [{
