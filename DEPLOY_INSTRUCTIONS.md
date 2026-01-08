@@ -99,10 +99,25 @@ vercel --prod
 
 ## ✅ Step 5: Custom Domain (Optional)
 
+### Important Notes:
+- **Vercel's default domain** (`portfolio-silk-gamma-21.vercel.app`) works automatically - you can't rename it
+- **To use a custom domain**, you must own the domain (e.g., `aniketnarayan.dev`, `aniketnarayan.com`)
+- **You cannot change** the default `.vercel.app` domain name
+
+### Adding a Custom Domain:
+
 1. **In Vercel Dashboard**: Go to your project → Settings → Domains
-2. **Add your domain**: e.g., `aniketnarayan.dev`
-3. **Update DNS** (Vercel will show you how)
-4. **Free SSL** certificate automatically!
+2. **Add your domain**: e.g., `aniketnarayan.dev` or `portfolio.aniketnarayan.com`
+3. **Update DNS** (Vercel will show you how):
+   - Add CNAME record pointing to `cname.vercel-dns.com`
+   - Or use A records if provided
+4. **Wait for DNS propagation** (up to 48 hours)
+5. **Free SSL** certificate automatically!
+
+### ⚠️ Common Mistake:
+- **Don't try to rename** the default Vercel domain (e.g., changing `portfolio-silk-gamma-21.vercel.app` to `ani-portfolio-vercel.app`)
+- This will cause "Invalid Configuration" error
+- Use the original domain Vercel gave you, or add a custom domain you own
 
 ---
 
@@ -128,6 +143,18 @@ vercel --prod
 - Check build logs in Vercel dashboard
 - Make sure `package.json` has correct scripts
 - Try building locally: `npm run build`
+
+### "Invalid Configuration" error for domain?
+1. **Go to**: Vercel Dashboard → Your Project → Settings → Domains
+2. **Click "Edit"** next to the domain showing the error
+3. **Check DNS Configuration**:
+   - For custom domains: Make sure DNS records are correctly set up
+   - CNAME should point to `cname.vercel-dns.com`
+   - Or use A records if Vercel provides IP addresses
+4. **Click "Refresh"** to re-verify the domain
+5. **If still not working**: Remove the domain and re-add it
+6. **Wait for DNS propagation** (can take up to 48 hours)
+7. **For default Vercel domains** (`*.vercel.app`): These should work automatically - try removing and letting Vercel reassign
 
 ### Need to update code?
 ```bash
