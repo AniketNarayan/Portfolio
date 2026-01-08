@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import "../styles/timeline.css"
-import WorkExperience from "./workexperience";
-import Education from "./education";
+import WorkExperience from "./Workexperience";
+import Education from "./Education";
 
 const Timeline = () => {
     const [activeTimelineTab, setActiveTimelineTab] = useState({id: 1, tabName: "Work Experience"})
