@@ -24,6 +24,7 @@ function SectionWrapper({ children, customStyle = {} }) {
       exit={{ opacity: 0, y: -40 }}
       transition={{ duration: 0.6 }}
       style={{...defaultStyle, ...customStyle}}
+      className="section-wrapper"
     >
      {children}
     </motion.div>

@@ -56,3 +56,20 @@ body {
   margin: 0 auto;
   width: 100%;
 }
+
+/* Mobile responsive styles for section wrapper */
+@media (max-width: 768px) {
+  .section-wrapper {
+    padding-top: 8rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-wrapper {
+    padding-top: 7rem !important;
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+  }
+}

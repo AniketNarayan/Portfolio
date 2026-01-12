@@ -13,6 +13,20 @@
     position: relative;
   }
   
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 2.2rem;
+    }
+    
+    .section-subtitle {
+      font-size: 1.6rem;
+    }
+    
+    .section-description {
+      font-size: 1.1rem;
+    }
+  }
+  
   .section-title .underline {
     display: block;
     width: 50%;
