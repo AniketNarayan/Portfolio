@@ -34,3 +34,5 @@ echo "   Name: $(git config user.name)"
 echo "   Email: $(git config user.email)"
 echo "   Remote: $(git remote get-url origin 2>/dev/null || echo 'Not set')"
 
+
+

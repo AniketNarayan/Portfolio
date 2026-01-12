@@ -36,3 +36,5 @@ echo ""
 echo "2. For personal repos, use: git@github.com-personal:username/repo.git"
 echo "3. For work repos, use: git@github.com-work:company/repo.git"
 
+
+

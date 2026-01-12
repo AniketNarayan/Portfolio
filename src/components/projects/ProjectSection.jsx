@@ -14,19 +14,35 @@ const mediumBlogs = [{
 const projects = [
     {
         id: 1,
-        title: "MyDayList",
+        title: "API Gateway",
         image: "",
         description: [
-            "A Day Planner and execution for professional",
-            "Passion x Solo project",
+            "Custom-built API Gateway with Round Robin Load Balancing and Dynamic Route Management",
+            "Implemented Circuit Breaker pattern to handle service failures gracefully",
+            "Integrated Token Bucket algorithm for Rate Limiting using Redis",
         ],
-        tags: ["React", "MongoDB", "Node.js"],
+        tags: ["Node.js", "Redis", "System Design", "Express", "Microservices"],
         links: {
-            code: "https://github.com/AniketNarayan/TODO",
-            view: "https://github.com/AniketNarayan/TODO",
+            code: "https://github.com/AniketNarayan/API_Gateway",
+            view: "https://github.com/AniketNarayan/API_Gateway",
         },
         type: "web"
     },
+    // {
+    //     id: 1,
+    //     title: "MyDayList",
+    //     image: "",
+    //     description: [
+    //         "A Day Planner and execution for professional",
+    //         "Passion x Solo project",
+    //     ],
+    //     tags: ["React", "MongoDB", "Node.js"],
+    //     links: {
+    //         code: "https://github.com/AniketNarayan/TODO",
+    //         view: "https://github.com/AniketNarayan/TODO",
+    //     },
+    //     type: "web"
+    // },
     {
         id: 2,
         title: "Enterprise AI Knowledge Assistant",
