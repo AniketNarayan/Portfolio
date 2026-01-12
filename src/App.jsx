@@ -60,6 +60,39 @@ export default function App() {
     }
   }, [location]);
 
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5
+    };
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          if (entry.target === homeRef.current) setActiveSection('home');
+          else if (entry.target === aboutRef.current) setActiveSection('about');
+          else if (entry.target === experienceRef.current) setActiveSection('experience');
+          else if (entry.target === projectsRef.current) setActiveSection('projects');
+          else if (entry.target === contactRef.current) setActiveSection('contact');
+        }
+      });
+    };
+
+
+    const observer = new IntersectionObserver(observerCallback, options);
+
+    if (homeRef.current) observer.observe(homeRef.current);
+    if (aboutRef.current) observer.observe(aboutRef.current);
+    if (experienceRef.current) observer.observe(experienceRef.current);
+    if (projectsRef.current) observer.observe(projectsRef.current);
+    if (contactRef.current) observer.observe(contactRef.current);
+ 
+    return () => observer.disconnect();
+
+  }, []);
+
+  
+
   const scrollToSection = (ref) => {
     console.log(ref.current)
     ref.current?.scrollIntoView({behavior: "smooth"})
