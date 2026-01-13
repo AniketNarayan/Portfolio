@@ -23,28 +23,29 @@ const projects = [
         ],
         tags: ["Node.js", "Redis", "System Design", "Express", "Microservices"],
         links: {
-            code: "https://github.com/AniketNarayan/API_Gateway",
-            view: "https://github.com/AniketNarayan/API_Gateway",
+            code: "https://github.com/AniketNarayan/API-Gateway",
+            view: "https://github.com/AniketNarayan/API-Gateway",
         },
         type: "web"
     },
-    // {
-    //     id: 1,
-    //     title: "MyDayList",
-    //     image: "",
-    //     description: [
-    //         "A Day Planner and execution for professional",
-    //         "Passion x Solo project",
-    //     ],
-    //     tags: ["React", "MongoDB", "Node.js"],
-    //     links: {
-    //         code: "https://github.com/AniketNarayan/TODO",
-    //         view: "https://github.com/AniketNarayan/TODO",
-    //     },
-    //     type: "web"
-    // },
     {
         id: 2,
+        title: "AI-Powered DevOps Automator",
+        image: "",
+        description: [
+            "Intelligent monitoring agent using LLM (Ollama) to analyze system metrics and make autonomous decisions",
+            "Automated service restart, team notifications, and health monitoring with SQLite-based action tracking",
+            "Implemented cooldown mechanisms and fallback rule-based decisions for production reliability"
+        ],
+        tags: ["Node.js", "AI/ML", "DevOps", "LLM", "SQLite", "Automation"],
+        links: {
+            code: "https://github.com/AniketNarayan/auto-reply",
+            view: "https://github.com/AniketNarayan/auto-reply",
+        },
+        type: "web"
+    },
+    {
+        id: 3,
         title: "Enterprise AI Knowledge Assistant",
         image: "",
         description: [
