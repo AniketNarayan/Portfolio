@@ -40,8 +40,8 @@ const projects = [
         ],
         tags: ["Node.js", "AI/ML", "DevOps", "LLM", "SQLite", "Automation"],
         links: {
-            code: "https://github.com/AniketNarayan/auto-reply",
-            view: "https://github.com/AniketNarayan/auto-reply",
+            code: "https://github.com/AniketNarayan/DevOps-Automator",
+            view: "https://github.com/AniketNarayan/DevOps-Automator",
         },
         type: "web"
     },
