@@ -35,7 +35,8 @@ const projects = [
         description: [
             "Intelligent monitoring agent using LLM (Ollama) to analyze system metrics and make autonomous decisions",
             "Automated service restart, team notifications, and health monitoring with SQLite-based action tracking",
-            "Implemented cooldown mechanisms and fallback rule-based decisions for production reliability"
+            "Implemented cooldown mechanisms and fallback rule-based decisions for production reliability",
+            "Upcoming: Escalation system, Analytics dashboard, and OpenAI integration for faster decision-making"
         ],
         tags: ["Node.js", "AI/ML", "DevOps", "LLM", "SQLite", "Automation"],
         links: {
