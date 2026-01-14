@@ -102,6 +102,9 @@
   .project-content {
     padding: 1rem;
     color: var(--text-primary);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
   }
   
   .project-title {
@@ -139,8 +142,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: auto;
     gap: 0.5rem;
+    padding-top: 1rem;
   }
   
   .project-button {
